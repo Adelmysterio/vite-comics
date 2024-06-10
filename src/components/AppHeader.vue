@@ -92,7 +92,6 @@ nav {
 
     ul {
         display: flex;
-        list-style-type: none;
         width: 60%;
 
         li {

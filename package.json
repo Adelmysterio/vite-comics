@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "fontawesome-common-types": "^6.4.0",
     "vue": "^3.4.21"
   },
   "devDependencies": {

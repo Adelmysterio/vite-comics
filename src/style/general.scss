@@ -12,4 +12,17 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-  }
+}
+
+ul {
+    list-style-type: none;
+}
+
+.flex-centered {
+    display: flex;
+    align-items: center;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
