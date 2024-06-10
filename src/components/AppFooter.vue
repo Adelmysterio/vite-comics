@@ -1,5 +1,10 @@
 <script>
+import AppFooterJumbo from './AppFooterJumbo.vue';
 export default {
+    components: { 
+        AppFooterJumbo 
+    },
+
     data() {
         return {
             comicsLinks: [
@@ -172,15 +177,7 @@ export default {
                 <img src="../assets/img/dc-logo-bg.png" alt="">
             </figure>
         </div>
-        <div>
-            <div class="container">
-<button>sign-up now!</button>
-<nav>
-    <p></p>
-    
-</nav>
-            </div>
-        </div>
+        <AppFooterJumbo />
     </footer>
 </template>
 
@@ -192,7 +189,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     height: 25rem;
-    overflow: hidden;
+    
 
     div {
         justify-content: space-between;
@@ -201,15 +198,17 @@ footer {
 
         nav {
             display: flex;
-            margin-top: 3rem;
-
+            margin: 2rem 0;
+            
             section {
-                margin-right: 2rem;
+                margin-right: 3rem;
             }
         }
 
         figure {
             position: relative;
+            width: 70%;
+            overflow: hidden;
 
             img {
                 position: absolute;
