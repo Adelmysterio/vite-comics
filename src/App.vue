@@ -5,18 +5,15 @@ import AppFooter from './components/AppFooter.vue';
 </script>
 
 <template>
-  <div class="container">
+
     <AppHeader />
-    <AppMain />
-    <AppFooter />
-  </div>
+
+  <div></div>
+  <AppMain />
+  <AppFooter />
 </template>
 
 <style lang="scss">
 @use './style/general.scss' as *;
 
-div.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 </style>

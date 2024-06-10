@@ -9,7 +9,22 @@ export default {
 </script>
 
 <template>
-    <h1>Main</h1>
+    <main>
+        <div class="container">
+            <h2> Content goes here </h2>
+        </div>
+    </main>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+@use '../style/partials/variables' as *;
+
+main {
+    background-color: $dc-black;
+    color: white;
+
+    h2 {
+        padding: 4rem 0;
+    }
+}
+</style>

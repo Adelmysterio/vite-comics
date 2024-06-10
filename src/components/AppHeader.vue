@@ -61,7 +61,7 @@ export default {
 </script>
 
 <template>
-    <header>
+    <header class="container">
         <nav>
             <figure><img src="../assets/img/dc-logo.png" alt="Logo DC"></figure>
             <ul>
@@ -84,6 +84,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem 0;
+
+    img {
+        width: 80%;
+    }
 
     ul {
         display: flex;
