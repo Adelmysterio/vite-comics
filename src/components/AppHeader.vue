@@ -65,7 +65,7 @@ export default {
         <nav>
             <figure><img src="../assets/img/dc-logo.png" alt="Logo DC"></figure>
             <ul>
-                <li v-for="item in headerLinks" :key="index" :class="item.active ? 'active' : ''">
+                <li v-for="(item, index) in headerLinks" :key="index" :class="item.active ? 'active' : ''">
                     {{ item.name }}
                 </li>
             </ul>

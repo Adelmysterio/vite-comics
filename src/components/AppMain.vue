@@ -1,5 +1,9 @@
 <script>
+import AppMainJumbo from './AppMainJumbo.vue';
 export default {
+    components: {
+        AppMainJumbo
+    },
     data() {
         return {
 
@@ -13,6 +17,7 @@ export default {
         <div class="container">
             <h2> Content goes here </h2>
         </div>
+        <AppMainJumbo />
     </main>
 </template>
 

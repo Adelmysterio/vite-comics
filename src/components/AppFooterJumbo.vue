@@ -59,6 +59,8 @@ div.bg {
         text-transform: uppercase;
         padding: .8rem;
     }
+
+    
 }
 
 
