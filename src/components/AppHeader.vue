@@ -98,7 +98,7 @@ nav {
         li {
             margin-right: 1.5rem;
             font-weight: bolder;
-            color: $dc-black;
+            color: $dc-gray;
         }
 
         li.active {

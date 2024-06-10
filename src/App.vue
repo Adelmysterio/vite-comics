@@ -1,12 +1,26 @@
-<script setup>
+<script>
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
+
+export default {
+  components: {
+    AppHeader,
+    AppMain, 
+    AppFooter
+  },
+
+  data() {
+    return {
+
+    }
+  }
+}
 </script>
 
 <template>
 
-    <AppHeader />
+  <AppHeader />
 
   <div></div>
   <AppMain />
@@ -15,5 +29,4 @@ import AppFooter from './components/AppFooter.vue';
 
 <style lang="scss">
 @use './style/general.scss' as *;
-
 </style>
