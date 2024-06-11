@@ -81,17 +81,18 @@ li {
 
 li:last-child figure {
     height: 2rem;
-    margin-right: 1rem;
+    
 }
 
 figure {
     height: 3rem;
-    width: 3rem;
+    width: auto;
 
 }
 
 img {
     height: 100%;
+    margin-right: 1rem;
 }
 
 </style>
