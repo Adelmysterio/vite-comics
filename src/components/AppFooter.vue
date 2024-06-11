@@ -153,23 +153,23 @@ export default {
                 <section>
                     <h3>dc comics</h3>
                     <ul class="mb-1">
-                        <li v-for="item in comicsLinks" :key="index"><a href="">{{ item.name }}</a></li>
+                        <li v-for="(item, index) in comicsLinks" :key="index"><a href="">{{ item.name }}</a></li>
                     </ul>
                     <h3>shop</h3>
                     <ul>
-                        <li v-for="item in shopLinks" :key="index"><a href="">{{ item.name }}</a></li>
+                        <li v-for="(item, index) in shopLinks" :key="index"><a href="">{{ item.name }}</a></li>
                     </ul>
                 </section>
                 <section>
                     <h3>dc</h3>
                     <ul>
-                        <li v-for="item in dcLinks" :key="index"><a href="">{{ item.name }}</a></li>
+                        <li v-for="(item, index) in dcLinks" :key="index"><a href="">{{ item.name }}</a></li>
                     </ul>
                 </section>
                 <section>
                     <h3>sites</h3>
                     <ul>
-                        <li v-for="item in sitesLinks" :key="index"><a href="">{{ item.name }}</a></li>
+                        <li v-for="(item, index) in sitesLinks" :key="index"><a href="">{{ item.name }}</a></li>
                     </ul>
                 </section>
             </nav>
@@ -198,7 +198,8 @@ footer {
 
         nav {
             display: flex;
-            margin: 2rem 0;
+            margin: 3rem 0;
+            width: 60%;
             
             section {
                 margin-right: 3rem;

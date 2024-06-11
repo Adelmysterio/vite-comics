@@ -81,13 +81,11 @@ li {
 
 li:last-child figure {
     height: 2rem;
-    
 }
 
 figure {
     height: 3rem;
     width: auto;
-
 }
 
 img {

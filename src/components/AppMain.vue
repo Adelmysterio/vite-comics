@@ -1,8 +1,8 @@
 <script>
-import AppMainJumbo from './AppMainJumbo.vue';
+import AppMainBanner from './AppMainBanner.vue';
 export default {
     components: {
-        AppMainJumbo
+        AppMainBanner
     },
     data() {
         return {
@@ -17,7 +17,7 @@ export default {
         <div class="container">
             <h2> Content goes here </h2>
         </div>
-        <AppMainJumbo />
+        <AppMainBanner />
     </main>
 </template>
 
