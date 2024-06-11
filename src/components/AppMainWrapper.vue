@@ -1,5 +1,10 @@
 <script>
+import AppMainSingleCard from './AppMainSingleCard.vue';
 export default {
+    components: {
+        AppMainSingleCard
+    },
+
     data() {
         return {
             comicList: [
@@ -84,12 +89,21 @@ export default {
 <template>
     <div class="container">
         <div class="tag">current series</div>
-
+        <div class="card-wrapper">
+        <AppMainSingleCard v-for="(item, index) in comicList" :key="index" :img="item.thumb" :comicTitle="item.series"/>
+    </div>
     </div>
 </template>
 
 <style scoped lang="scss">
 @use '../style/partials/variables' as *;
+
+div.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
 
 div.tag {
     background-color: $dc-blue;
